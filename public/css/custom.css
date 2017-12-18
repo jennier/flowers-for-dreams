@@ -1,0 +1,185 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: futura-condensedMedium, Futura-pt-condensed, Futura, Helvetica, sans-serif;
+  text-transform: uppercase; 
+  color: #16191c;
+ }
+
+body, p {
+ 	font-family: Goudy Old Style, Times, serif;
+ }
+
+ a, a:hover, a:active {
+ 	color: #8c694d;
+ }
+
+ .logo {
+ 	height: 36px;
+  	width: 41px;
+  	margin: 0 auto;
+  	padding: 0;
+ }
+
+.btn {
+  border-radius: 0px;
+  font-family: Futura-pt-condensed, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  margin: 5px;
+}
+
+.btn-main {
+  width: 50%;
+  background: #16191c;
+  border-color: #16191c;
+  color: #fff; 
+}
+
+.btn-main:hover,
+.btn-main:active,
+.btn-main:active:focus,
+.btn-main:focus {
+  border-color: #8c694d; 
+  background: #8c694d;
+  color: #fff; 
+}
+
+.btn-social {
+	padding: 5px 10px;
+	margin: 25px 5px;
+    text-transform: none;
+    font-weight: bold;
+}
+
+.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: rgba(0, 0, 0, 0.2); 
+}
+
+.btn-facebook:hover {
+   color: #fff;
+   background-color: #2d4373;
+   border-color: rgba(0, 0, 0, 0.2); 
+}
+
+.btn-facebook .badge {
+   color: #3b5998;
+   background-color: #fff; 
+}
+
+.btn-facebook:focus, .btn-facebook.focus {
+  color: #fff;
+  background-color: #2d4373;
+  border-color: rgba(0, 0, 0, 0.2); 
+}
+
+.btn-google {
+  color: #fff;
+  background-color: #dd4b39;
+  border-color: rgba(0, 0, 0, 0.2); 
+}
+  
+.btn-google:hover {
+    color: #fff;
+    background-color: #c23321;
+    border-color: rgba(0, 0, 0, 0.2); 
+}
+
+.btn-google .badge {
+    color: #dd4b39;
+    background-color: #fff; 
+}
+
+.modal-lg {
+	width: 80%;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0;
+  border: 0;
+  outline: 0;
+  box-shadow: none; 
+  padding: 0;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0; 
+}
+
+.modal-body .container-fluid {
+	padding: 0;
+}
+
+.modal-body .container-fluid .col {
+	padding: 0;
+}
+
+.modal-body .container-fluid .image-col {
+	min-height: 600px;
+	overflow: hidden;
+}
+
+.modal-body .container-fluid .text-col {
+	padding: 60px 50px 0;
+	min-height: 600px;
+	display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.modal-body .container-fluid .text-col .row {
+	width: 100%;
+}
+
+.modal-body .container-fluid .text-col .row h1 {
+	padding: 0;
+}
+
+.content {
+	flex-grow: 1;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.form-group {
+	margin: 
+	30px 0;
+}
+
+.control-label {
+	font-weight: lighter;
+	color: #8c694d;
+}
+
+.form-control {
+	border: 1px solid;
+	border-color: rgba(140, 105, 77, 0.2);
+	border-radius: 0;
+	color: #8c694d;
+	text-align: center;
+}
+
+.password-request {
+	float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .modal-body .container-fluid .image-col {
+        width: 0;
+        height: 0;
+    }
+
+    .modal-body .container-fluid .image-col {
+        width: 100%;
+    }
+}
+
+
